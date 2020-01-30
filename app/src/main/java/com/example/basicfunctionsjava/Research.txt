@@ -1,0 +1,19 @@
+A Hashmap is not synchronized, it is not thread-safe, and it allows null keys and multiple null values.
+It is also faster than a hash table!
+Hashmaps are used in unsychronized or single threaded apps.
+
+Unless you override the equals() and hashCode(), the class won't behave properly. This is because hash based
+collections are organized in a sequence where the same hash code determines where objects go and where to find them.
+
+Factory method s allow classes to defer instantiation to subclasses. This design patterns only requires a new
+operation as opposed to a new class.
+
+Java garbage collection is how java performs auto memory management. It finds unused objects and deletes them.
+
+An array of data in which many values equal 0. A pretty crap array if you ask me.
+
+List is an interface while Array List is a class. This is an example of Polymorphism, where Array List
+inherits List and all its method while adding new functionality.
+
+A comparable in an object that can compare itself with another object. Comparables only have one chance to use
+the compare to object. Comparator is an external type and it uses multiple classes.
